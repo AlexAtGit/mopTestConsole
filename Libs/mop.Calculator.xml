@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mop.Calculator</name>
+    </assembly>
+    <members>
+        <member name="T:mop.Calculator.AddCalculator`1">
+            <summary>
+            Simple calculator to perform operations on a given type
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:mop.Calculator.AddCalculator`1.Calculate(`0,`0)">
+            <summary>
+            Adds two values of the same type. Does not check for overflows
+            </summary>
+            <param name="arg1"></param>
+            <param name="arg2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:mop.Calculator.AddCalculatorChecked`1">
+            <summary>
+            Calculator to perform operations on a given type. 
+            It throws an OverflowException, where applicable
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:mop.Calculator.AddCalculatorChecked`1.Calculate(`0,`0)">
+            <summary>
+            Adds two values of the same type.
+            </summary>
+            <param name="arg1"></param>
+            <param name="arg2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "mop.Calculator/1.0.0": {
+        "dependencies": {
+          "mop.BaseCalculator": "1.0.0"
+        },
+        "runtime": {
+          "mop.Calculator.dll": {}
+        }
+      },
+      "mop.BaseCalculator/1.0.0": {
+        "runtime": {
+          "mop.BaseCalculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mop.Calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "mop.BaseCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
